@@ -2,7 +2,7 @@
 
 ### Management Tools 🛠️
 
-*   **pyenv**: Our trusty assistant for managing multiple Python versions on the same system. Allows easy installation and switching between different versions, like disguises for different cases.
+*   **pyenv**: Our trusty assistant for managing multiple Python versions on the same system. Allows easy installation and switching between different versions.
 *   **pipx**: Installs and runs Python command-line tools in isolated environments.
 *   **poetry**: The mastermind of the operation, managing project dependencies and virtual environments. Simplifies declaring, installing, and updating packages.
 
