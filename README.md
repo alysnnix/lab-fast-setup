@@ -3,16 +3,15 @@
 ### Management Tools 🛠️
 
 *   **pyenv**: Our trusty assistant for managing multiple Python versions on the same system. Allows easy installation and switching between different versions, like disguises for different cases.
-*   **pipx**: Installs and runs Python command-line tools in isolated environments, keeping our crime scene clean of dependency conflicts.
-*   **poetry**: The mastermind of the operation, managing project dependencies and virtual environments. Simplifies declaring, installing, and updating packages, organizing our clues.
-*   **ignr (optional)**: A tool for generating `.gitignore` files, ensuring we don't accidentally include sensitive or unnecessary files in our version control. It's like a bouncer at the door, checking IDs and keeping unwanted guests out.
+*   **pipx**: Installs and runs Python command-line tools in isolated environments.
+*   **poetry**: The mastermind of the operation, managing project dependencies and virtual environments. Simplifies declaring, installing, and updating packages.
 
 ### Project Tools 🔍
 
-*   **ruff**: An extremely fast Python linter and code formatter, written in Rust. Helps maintain code quality and consistency, like a magnifying glass over every line.
-*   **pytest**: A robust and easy-to-use testing framework for Python, essential for verifying our code alibis.
-*   **pytest-cov**: A pytest plugin that measures code coverage of tests, ensuring no clues are left behind.
-*   **taskipy**: A task runner that allows defining and running custom scripts defined in the `pyproject.toml` file, our notebook for frequent commands.
+*   **ruff**: An extremely fast Python linter and code formatter, written in Rust. Helps maintain code quality and consistency.
+*   **pytest**: A robust and easy-to-use testing framework for Python.
+*   **pytest-cov**: A pytest plugin that measures code coverage of tests.
+*   **taskipy**: A task runner that allows defining and running custom scripts defined in the `pyproject.toml` file.
 
 ### Setup Steps 👣
 
@@ -28,7 +27,6 @@
     ```
 
 3.  **Install project dependencies using poetry:**
-    Poetry will read the [`pyproject.toml`](pyproject.toml) file and install the necessary dependencies in a virtual environment managed by it. It's elementary!
     ```bash
     poetry install --with dev
     ```
