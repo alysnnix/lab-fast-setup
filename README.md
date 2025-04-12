@@ -1,8 +1,4 @@
-# 🐍 A Study in Fast Snake: Unraveling Python FastAPI Development 🕵️
-
-## Development Environment Setup ⚙️
-
-This guide describes how to set up the development environment for this project, an investigation into the world of modern Python.
+# A simple setup for fastAPI application 🐍 
 
 ### Management Tools 🛠️
 
@@ -26,10 +22,9 @@ This guide describes how to set up the development environment for this project,
     pyenv local 3.12
     ```
 
-2.  **Install poetry and ignr (optional, for generating .gitignore) using pipx:**
+2.  **Install poetry using pipx:**
     ```bash
     pipx install poetry
-    pipx install ignr
     ```
 
 3.  **Install project dependencies using poetry:**
@@ -47,7 +42,7 @@ This guide describes how to set up the development environment for this project,
 
 5.  **Verify the installation and run tasks:**
     Use `taskipy` to run the tasks defined in [`pyproject.toml`](pyproject.toml):
-    *   Run the application: `poetry run task run` ▶️
-    *   Run the tests: `poetry run task test` ✅
-    *   Check formatting and linting: `poetry run task lint` ✨
-    *   Format the code: `poetry run task format` 🎨
+    *   Run the application: `task run` ▶️
+    *   Run the tests: `task test` ✅
+    *   Check formatting and linting: `task lint` ✨
+    *   Format the code: `task format` 🎨
