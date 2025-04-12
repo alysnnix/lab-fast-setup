@@ -42,7 +42,10 @@ This guide describes how to set up the development environment for this project,
     poetry shell
     ```
 
-4.  **Verify the installation and run tasks:**
+4. **Dont forget to set your name and email**
+    Set your name and email in the `pyproject.toml` file. This is important for commit history and package metadata.
+
+5.  **Verify the installation and run tasks:**
     Use `taskipy` to run the tasks defined in [`pyproject.toml`](pyproject.toml):
     *   Run the application: `poetry run task run` ▶️
     *   Run the tests: `poetry run task test` ✅
